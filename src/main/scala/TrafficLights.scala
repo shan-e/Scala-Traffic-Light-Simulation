@@ -108,6 +108,7 @@ object TrafficLights {
     val yellowLightANSII = yellow + "SLOW" + reset
     val redLightANSII = red + "STOP" + reset
 
+    println()
     println("\n\n\nPoint of View of secondary road intersecting a dual carriageway\n")
     println(f"$red$spaceChar%10s$dividingLine$vLaneWidth$dividingLine$reset$vLaneWidth$dividingLine$vLaneWidth$red$dividingLine$spaceChar%10s$reset")
     println(f"$red$spaceChar%10s$dividingLine$vLaneWidth$dividingLine$reset$vLaneWidth$dividingLine$vLaneWidth$red$dividingLine$spaceChar%10s$reset")
